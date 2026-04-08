@@ -1,0 +1,67 @@
+I"^<h1 id="cs-6950-applied-ai-agent-systems">CS 6950: Applied AI Agent Systems</h1>
+
+<p><strong>Graduate Seminar — 3 Credit Hours</strong>
+<strong>Instructor:</strong> Shrikant Tambe | <a href="https://orcid.org/0009-0003-3432-3852">ORCID</a></p>
+
+<p>A course bridging 20 years of distributed systems engineering with multi-agent AI orchestration. Students build, observe, and harden AI agent systems using real-world patterns from production deployments at scale.</p>
+
+<p><strong>Prerequisites:</strong> Graduate-level distributed systems or ML. Python proficiency.</p>
+
+<p><strong>Grading:</strong> 40% Assignments | 20% Midterm | 40% Final Project</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Topic</th>
+      <th>Key Reading</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1–2</td>
+      <td>Foundations: agent architectures, MCP, A2A</td>
+      <td>Yao et al., ReAct (2023)</td>
+    </tr>
+    <tr>
+      <td>3–4</td>
+      <td>Orchestration: topologies, event-driven coordination</td>
+      <td>Ju et al., Self-Repair (arXiv:2502.15153)</td>
+    </tr>
+    <tr>
+      <td>5–6</td>
+      <td>Observability: distributed tracing, AER, D-AER</td>
+      <td>AER (arXiv:2603.21692); Tambe, D-AER (2026)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td><strong>Midterm</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8–9</td>
+      <td>Reliability: Cognitive SLOs, chaos engineering</td>
+      <td>Pal &amp; Bhattacharya, Stochastic Gap (arXiv:2603.24582)</td>
+    </tr>
+    <tr>
+      <td>10–11</td>
+      <td>Production: cost attribution, model routing, scaling</td>
+      <td>In et al., Failure Attribution (arXiv:2603.25001)</td>
+    </tr>
+    <tr>
+      <td>12–13</td>
+      <td>Advanced: security, human-agent handoff, drift</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><strong>Final Project Presentations</strong></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Final Project:</strong> Design, build, and deploy a multi-agent system with full observability, 3+ Cognitive SLOs, and a chaos experiment.</p>
+
+<p><a href="/">← Back to home</a></p>
+:ET

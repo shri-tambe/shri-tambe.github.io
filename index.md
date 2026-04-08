@@ -3,14 +3,19 @@ layout: default
 title: Shrikant Tambe
 ---
 
-# Shrikant Tambe
-
+<div class="hero">
+<img src="/assets/img/headshot.jpg" alt="Shrikant Tambe">
+<div class="hero-text">
+<h1>Shrikant Tambe</h1>
 <p class="subtitle">Senior Software Development Engineer, Amazon Web Services<br>AI Agent Systems Researcher</p>
+</div>
+</div>
 
 <nav>
 <a href="#research">Research</a>
 <a href="#publications">Publications</a>
 <a href="#teaching">Teaching</a>
+<a href="#blog">Blog</a>
 <a href="#experience">Experience</a>
 <a href="#contact">Contact</a>
 </nav>
@@ -51,6 +56,24 @@ Available for guest lectures and adjunct teaching in:
 - **Software Engineering in Practice** — production systems at AWS scale
 
 My courses use real production case studies, hands-on agent-building assignments, and evaluation frameworks drawn from active research. [Syllabus available on request.](/syllabus)
+
+## Blog
+{: #blog}
+
+{% assign posts = site.posts | slice: 0, 5 %}
+{% if posts.size > 0 %}
+<ul class="post-list">
+{% for post in posts %}
+<li>
+<span class="date">{{ post.date | date: "%B %d, %Y" }}</span><br>
+<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
+{% if site.posts.size > 5 %}<p><a href="/blog">All posts →</a></p>{% endif %}
+{% else %}
+<p><em>Coming soon — writing on AI agent observability, distributed systems, and research notes.</em></p>
+{% endif %}
 
 ## Experience
 {: #experience}
