@@ -92,4 +92,4 @@ My courses use real production case studies, hands-on agent-building assignments
 
 - ORCID: [0009-0003-3432-3852](https://orcid.org/0009-0003-3432-3852)
 - LinkedIn: [linkedin.com/in/shrikanttambe](https://www.linkedin.com/in/shrikanttambe/)
-- Email: [your-academic-email]
+- Email: [shrikant_tambe@outlook.com](mailto:shrikant_tambe@outlook.com)

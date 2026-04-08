@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Why AI Agent Systems Are Distributed Systems — Shrikant Tambe</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <button class="theme-toggle" onclick="let d=document.documentElement,t=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',t);localStorage.setItem('theme',t);this.textContent=t==='dark'?'☀️':'🌙'" aria-label="Toggle dark mode">🌙</button>
-  <script>let t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);document.querySelector('.theme-toggle').textContent=t==='dark'?'☀️':'🌙'</script>
-  <nav><a href="/">← Home</a></nav>
-  <h1>Why AI Agent Systems Are Distributed Systems</h1>
-  <p class="subtitle">April 08, 2026</p>
-  <p>Last year I started building multi-agent AI systems at work — orchestrators dispatching tasks to specialized LLM agents, agents calling tools, tools calling other agents. The systems worked. Then they failed. And when they failed, I couldn’t figure out <em>why</em>.</p>
+I"~<p>Last year I started building multi-agent AI systems at work — orchestrators dispatching tasks to specialized LLM agents, agents calling tools, tools calling other agents. The systems worked. Then they failed. And when they failed, I couldn’t figure out <em>why</em>.</p>
 
 <p>The debugging experience felt familiar. Not “new frontier of AI” familiar — more like “microservices in 2014” familiar. Requests disappearing between components. Latency spikes with no obvious source. Partial failures that cascaded unpredictably. The same classes of problems I’d spent years solving with distributed tracing, SLOs, and structured logging in traditional backend systems.</p>
 
@@ -56,7 +42,4 @@
 <p>More posts coming on Cognitive SLOs, the experiment methodology, and what I learned about emergent self-repair in multi-agent systems.</p>
 
 <p><em>If you’re working on agent observability or have thoughts on this direction, I’d love to hear from you — <a href="https://orcid.org/0009-0003-3432-3852">reach out via ORCID</a>.</em></p>
-
-  <footer>&copy; 2026 Shrikant Tambe</footer>
-</body>
-</html>
+:ET
