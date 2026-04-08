@@ -1,4 +1,6 @@
 :root { --accent: #2563eb; --bg: #fff; --text: #1a1a1a; --muted: #6b7280; --border: #e5e7eb; }
+[data-theme="dark"] { --accent: #60a5fa; --bg: #111; --text: #e5e7eb; --muted: #9ca3af; --border: #333; }
+.theme-toggle { position: fixed; top: 1rem; right: 1rem; background: var(--border); border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; font-size: 1.1rem; line-height: 1; }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font: 17px/1.7 'Georgia', serif; color: var(--text); background: var(--bg); max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
 h1 { font-size: 1.8rem; margin-bottom: 0.3rem; }

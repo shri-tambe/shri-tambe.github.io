@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shrikant Tambe</title>
-  <meta name="description" content="Senior SDE at AWS | AI Agent Systems Researcher">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <div class="hero">
+I"œ<div class="hero">
 <img src="/assets/img/headshot.jpg" alt="Shrikant Tambe" />
 <div class="hero-text">
 <h1>Shrikant Tambe</h1>
@@ -96,7 +86,4 @@ Validated across 3 systems, N=1,400 LLM interactions, 6 Cognitive SLOs defined.
   <li>LinkedIn: <a href="https://www.linkedin.com/in/shrikanttambe/">linkedin.com/in/shrikanttambe</a></li>
   <li>Email: [your-academic-email]</li>
 </ul>
-
-  <footer>&copy; 2026 Shrikant Tambe</footer>
-</body>
-</html>
+:ET

@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <button class="theme-toggle" onclick="let d=document.documentElement,t=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',t);localStorage.setItem('theme',t);this.textContent=t==='dark'?'☀️':'🌙'" aria-label="Toggle dark mode">🌙</button>
+  <script>let t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);document.querySelector('.theme-toggle').textContent=t==='dark'?'☀️':'🌙'</script>
   <nav><a href="/">← Home</a></nav>
   <h1>{{ page.title }}</h1>
   <p class="subtitle">{{ page.date | date: "%B %d, %Y" }}</p>
