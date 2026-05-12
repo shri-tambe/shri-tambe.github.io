@@ -10,7 +10,7 @@ title: "CS 6950: Applied AI Agent Systems — Syllabus"
 
 Production AI systems increasingly rely on autonomous agents — software that reasons, uses tools, and coordinates with other agents to accomplish complex tasks. This course teaches students to build, deploy, observe, and harden AI agent systems using patterns drawn from real production deployments. Students progress from single-agent tool use through multi-agent orchestration to production reliability engineering.
 
-**Prerequisites:** CS 5010 (Programming Design Paradigms) or equivalent Python proficiency. Prior experience calling LLM APIs (through EAI 6010, CS 6120, or self-study with OpenAI/Anthropic). No distributed systems background required — relevant concepts are introduced as needed in the course.
+**Prerequisites:** Proficiency in Python. Prior experience calling LLM APIs (through a prior AI/ML course or self-study with OpenAI/Anthropic). No distributed systems background required — relevant concepts are introduced as needed in the course.
 
 **Grading:** 50% Labs (12) \| 10% Architecture Review (Week 8) \| 30% Final Project \| 10% Participation
 
@@ -76,9 +76,8 @@ Deliverables: Architecture doc (Week 8), working demo (Week 13), final presentat
 
 ## How This Course Relates to Other Courses
 
-| | EAI 6010 (Applications of AI) | **CS 6950 (This Course)** |
+| | Applications of AI (intro course) | **CS 6950 (This Course)** |
 |---|---|---|
-| **Program** | MPS (Professional Studies) | MS CS / MS AI |
 | **Focus** | Applying AI to business problems | Engineering reliable AI agent infrastructure |
 | **Depth** | Use APIs, evaluate results, deploy solutions | Build from scratch, understand internals, debug at the systems level |
 | **Key skill** | Choosing the right AI approach for a problem | Designing agent architectures that work under failure, scale, and adversarial conditions |
@@ -88,7 +87,7 @@ Deliverables: Architecture doc (Week 8), working demo (Week 13), final presentat
 
 ## Instructor Background
 
-Shrikant Tambe is a Senior SDE at AWS with 8 years building production AI and distributed systems. He created the open-source CloudWatch MCP Server (274K+ monthly downloads), designed multi-agent platforms on AWS Bedrock AgentCore, and built autonomous engineering pipelines that ship production code without human intervention. He authored research on AI system observability and reliability metrics for multi-agent systems.
+Shrikant Tambe is a Senior SDE at AWS with 12 years building production AI and distributed systems. He created the open-source CloudWatch MCP Server (274K+ monthly downloads), designed multi-agent platforms on AWS Bedrock AgentCore, and built autonomous engineering pipelines that ship production code without human intervention. He authored research on AI system observability and reliability metrics for multi-agent systems.
 
 ## Recommended Readings & References
 
@@ -112,7 +111,7 @@ Each week includes suggested readings. None are mandatory textbooks — the fiel
 - Sigelman et al., "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure" (2010) — Week 5
 - Netflix, "Principles of Chaos Engineering" — https://principlesofchaos.org/ — Week 7
 - Pal & Bhattacharya, "The Stochastic Gap: Agent Reliability as Blind-Spot Mass" (2025) — Week 7
-- Tambe, "D-AER: Distributed Agent Execution Records" (2026, preprint) — Week 5
+- Instructor research on multi-agent observability (preprint, available upon request) — Week 5
 - TianPan, "SLO Error Budgets for Agent Systems" (2026) — Week 10
 
 **Failure Analysis & Security:**

@@ -1,0 +1,110 @@
+I"o'<div class="hero">
+<img src="/assets/img/headshot.jpg" alt="Shrikant Tambe" />
+<div class="hero-text">
+<h1>Shrikant Tambe</h1>
+<p class="subtitle">Senior Software Development Engineer, Amazon Web Services<br />AI Agent Systems Researcher</p>
+</div>
+</div>
+
+<nav>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
+<a href="#teaching">Teaching</a>
+<a href="#blog">Blog</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<h2 id="research">Research</h2>
+
+<p>My research applies distributed systems observability principles to multi-agent AI systems — the thesis that <strong>AI agent systems are distributed systems</strong> and need the same rigor in tracing, reliability metrics, and operational tooling that we’ve spent 20 years building for microservices.</p>
+
+<p><strong>Focus areas:</strong></p>
+<ul>
+  <li>Multi-agent reasoning observability (D-AER framework)</li>
+  <li>Cognitive SLOs for non-deterministic systems</li>
+  <li>Emergent self-repair in multi-agent LLM systems</li>
+  <li>The Agent Observability Lifecycle</li>
+</ul>
+
+<p>I’ve surveyed 1,000+ recent papers in cs.AI and identified four wide-open gaps: multi-agent observability, cognitive SLOs, self-modifying agent monitoring, and cost of observability. My work addresses the first two.</p>
+
+<h2 id="publications">Publications</h2>
+
+<div class="pub">
+<strong>Tambe, S.</strong> "D-AER: Distributed Agent Execution Records for Multi-Agent Reasoning Observability." <em>Under review</em>, 2026.<br />
+Validated across 3 systems, N=1,400 LLM interactions, 6 Cognitive SLOs defined.
+</div>
+
+<div class="pub">
+<strong>Tambe, S.</strong> "When and Why Multi-Agent LLM Systems Self-Repair." <em>In preparation</em>, 2026.
+</div>
+
+<p>ORCID: <a href="https://orcid.org/0009-0003-3432-3852">0009-0003-3432-3852</a></p>
+
+<h2 id="teaching">Teaching</h2>
+
+<p>Available for guest lectures and adjunct teaching in:</p>
+<ul>
+  <li><strong>Applied AI Agent Systems</strong> — multi-agent orchestration, observability, reliability, production deployment</li>
+  <li><strong>Distributed Systems</strong> — with modern AI/ML applications</li>
+  <li><strong>Software Engineering in Practice</strong> — production systems at AWS scale</li>
+</ul>
+
+<p>My courses use real production case studies, hands-on agent-building assignments, and evaluation frameworks drawn from active research. <a href="/syllabus">Syllabus available on request.</a></p>
+
+<h2 id="blog">Blog</h2>
+
+<ul class="post-list">
+
+<li>
+<span class="date">April 08, 2026</span><br />
+<a class="title" href="/2026/04/08/why-ai-agents-are-distributed-systems.html">Why AI Agent Systems Are Distributed Systems</a>
+</li>
+
+</ul>
+
+<h2 id="experience">Experience</h2>
+
+<h3 class="experience-header" id="amazon-web-services--8-years">Amazon Web Services — 8 years</h3>
+
+<p>I build query languages, AI agent platforms, and developer tooling at AWS scale. Four threads run through my work: <strong>making complex systems accessible through language design</strong>, <strong>bringing AI agents from prototype to production</strong>, <strong>shifting enforcement left into infrastructure</strong>, and <strong>driving cross-org technical initiatives from ambiguity to delivery</strong>.</p>
+
+<p class="role"><strong>AI Agent Platforms &amp; Open-Source Developer Tooling</strong> — CloudWatch (2025–present)</p>
+
+<p>I proposed and led delivery of the <a href="https://github.com/awslabs/mcp">CloudWatch MCP Server</a> — an open-source Model Context Protocol integration that exposes CloudWatch APIs to AI agents and coding assistants. I authored the initial architecture and phased plan scoping MCP servers across all of CloudWatch, coordinated a Sr. PE, 2 PEs, and engineers across Seattle and Dublin to ship a unified server in 2 weeks, completed AppSec review in 2 days, and handled the final integration across the full repo for the AWSLabs release. The server has been downloaded 482,000+ times and drove CloudWatch Logs API adoption to 1.1 million calls from MCP clients, creating measurable indirect revenue impact within 6 months of launch.</p>
+
+<p>I led the Odyssey AI Agents platform — a production system for operational AI assistants within CloudWatch. I drove Project Hive, the sub-agent extensibility architecture that enables external teams (EKS, RDS, OpenSearch) to integrate domain-specific agents into Odyssey’s orchestration framework; the EKS agent shipped to production using this pattern. When production demands required rapid response, I led my team to deliver Runbook Execution Agents in 3 weeks — agents that extract procedures from customer-provided runbooks and execute them autonomously — personally fixing production bugs at ~4-hour turnaround (~2 bugs/day). I took technical ownership of DataHub, the data storage and compliance layer, inheriting it in red status and strategizing scope, removing technical ambiguity, and leading 2 engineers to deliver both Preview and GA on schedule. I established data compliance expertise with the Legal team and delivered a deletion pipeline in 4 days (scoped at 2–3 weeks) to meet legal requirements for GA.</p>
+
+<p class="role"><strong>Observability Query Language &amp; Compiler Design</strong> — CloudWatch Logs (2022–present)</p>
+
+<p>I own feature development for ScrollQL, the query compiler powering CloudWatch Logs Insights — the primary log analysis surface for millions of AWS customers. ScrollQL compiles a SQL-like query language into execution plans over distributed log storage; I work across the full compiler stack from parser extensions through AST rewrite rules to execution operators. I designed and shipped Lookup Tables end-to-end across 32 AWS regions — a query-time enrichment primitive that performs hash-join lookups against customer-provided reference data, enabling log enrichment (IP→hostname, error code→description) without data movement. I build aggregation functions (<code class="language-plaintext highlighter-rouge">rate</code>, <code class="language-plaintext highlighter-rouge">avg</code>, <code class="language-plaintext highlighter-rouge">sum</code>, <code class="language-plaintext highlighter-rouge">count</code>) that operate over streaming window semantics, and macro rewrite rules that expand high-level query patterns into optimized multi-stage execution plans.</p>
+
+<p class="role"><strong>Autonomous Software Engineering Systems</strong> (2025–present)</p>
+
+<p>I designed Forge — a self-correcting autonomous pipeline where LLM agents take a feature specification and produce a shipped, reviewed code change with zero manual intervention. The architecture is a 5-phase state machine: workspace provisioning from the latest green pipeline event → compiler implementation via domain-specialized agents → test generation and validation → code review submission → iterative watch loop that polls for static analysis findings, spawns repair agents, and pushes revisions until clean. The system uses async job queuing, idempotent cron-driven state transitions, tmux-isolated agent sessions for crash resilience, and a human-in-the-loop feedback path. First end-to-end run delivered a production ScrollQL feature in under 5 hours. This work directly informs my research on multi-agent system observability.</p>
+
+<p class="role"><strong>Cross-Org Technical Leadership</strong> (2025)</p>
+
+<p>I led the Analytical Tier Benchmarking effort evaluating CloudWatch Logs Analytics Tier launch readiness — guiding an engineer to modify the testing framework, collaborating with the OpenSearch team to identify and triage critical blockers across 9 benchmark iterations, and producing the data that informed L7/L8 leadership go/no-go decisions. I drove the 3P Data Source integration strategy for Odyssey, taking a multi-dimensional ambiguous problem (multiple providers, multiple data types, backwards-compatible data model changes across all components) and proposing a phased execution plan — focus on OTEL as first format, single provider first (Datadog), reuse existing connectors — that was approved by PEs. I led Knowledge Store Preview Launch region expansion with 3 engineers, and authored tooling that onboarded all CloudWatch Logs services to AIOps investigations with under 5-minute setup times.</p>
+
+<p class="role"><strong>Infrastructure Compliance at Scale</strong> — AWS CloudFormation (2018–2022)</p>
+
+<p>I designed and built the Hooks control plane service — the API layer, invocation engine, and execution model for CloudFormation Hooks. Hooks intercept stack operations (create, update, delete) at the resource level and invoke customer-defined compliance handlers before provisioning proceeds, enabling policy-as-code enforcement without modifying templates. I led a team of 6 engineers to deliver Hooks to GA, led the integration of Hooks as a new resource type into the existing CloudFormation Registry, and drove both systems across all AWS partitions (commercial, GovCloud, China, isolated regions). The resource provider framework I contributed to defines the contract between CloudFormation and hundreds of AWS service teams that implement resource handlers.</p>
+
+<h3 class="role" id="research">Research</h3>
+
+<p>My independent research bridges distributed systems and AI — treating multi-agent LLM systems as distributed systems that need the same observability, reliability contracts, and operational rigor we’ve built for microservices over two decades. Two papers in progress; details in <a href="#publications">Publications</a>.</p>
+
+<h3 id="education">Education</h3>
+
+<p><strong>MS</strong> — University of Utah, David Eccles School of Business (2016–2017) · <strong>BE</strong> — Computer Science</p>
+
+<h2 id="contact">Contact</h2>
+
+<ul>
+  <li>ORCID: <a href="https://orcid.org/0009-0003-3432-3852">0009-0003-3432-3852</a></li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/shrikanttambe/">linkedin.com/in/shrikanttambe</a></li>
+  <li>Email: <a href="mailto:shrikant_tambe@outlook.com">shrikant_tambe@outlook.com</a></li>
+</ul>
+:ET

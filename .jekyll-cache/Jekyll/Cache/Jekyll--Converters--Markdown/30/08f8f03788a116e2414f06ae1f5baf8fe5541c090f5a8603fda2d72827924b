@@ -1,0 +1,100 @@
+I"�<div class="hero">
+<img src="/assets/img/headshot.jpg" alt="Shrikant Tambe" />
+<div class="hero-text">
+<h1>Shrikant Tambe</h1>
+<p class="subtitle">Senior Software Development Engineer, Amazon Web Services<br />AI Agent Systems Researcher</p>
+</div>
+</div>
+
+<nav>
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
+<a href="#teaching">Teaching</a>
+<a href="#blog">Blog</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<h2 id="research">Research</h2>
+
+<p>My research applies distributed systems observability principles to multi-agent AI systems — the thesis that <strong>AI agent systems are distributed systems</strong> and need the same rigor in tracing, reliability metrics, and operational tooling that we’ve spent 20 years building for microservices.</p>
+
+<p><strong>Focus areas:</strong></p>
+<ul>
+  <li>Multi-agent reasoning observability (D-AER framework)</li>
+  <li>Cognitive SLOs for non-deterministic systems</li>
+  <li>Emergent self-repair in multi-agent LLM systems</li>
+  <li>The Agent Observability Lifecycle</li>
+</ul>
+
+<p>I’ve surveyed 1,000+ recent papers in cs.AI and identified four wide-open gaps: multi-agent observability, cognitive SLOs, self-modifying agent monitoring, and cost of observability. My work addresses the first two.</p>
+
+<h2 id="publications">Publications</h2>
+
+<div class="pub">
+<strong>Tambe, S.</strong> "D-AER: Distributed Agent Execution Records for Multi-Agent Reasoning Observability." <em>Under review</em>, 2026.<br />
+Validated across 3 systems, N=1,400 LLM interactions, 6 Cognitive SLOs defined.
+</div>
+
+<div class="pub">
+<strong>Tambe, S.</strong> "When and Why Multi-Agent LLM Systems Self-Repair." <em>In preparation</em>, 2026.
+</div>
+
+<p>ORCID: <a href="https://orcid.org/0009-0003-3432-3852">0009-0003-3432-3852</a></p>
+
+<h2 id="teaching">Teaching</h2>
+
+<p>Available for guest lectures and adjunct teaching in:</p>
+<ul>
+  <li><strong>Applied AI Agent Systems</strong> — multi-agent orchestration, observability, reliability, production deployment</li>
+  <li><strong>Distributed Systems</strong> — with modern AI/ML applications</li>
+  <li><strong>Software Engineering in Practice</strong> — production systems at AWS scale</li>
+</ul>
+
+<p>My courses use real production case studies, hands-on agent-building assignments, and evaluation frameworks drawn from active research. <a href="/syllabus">Syllabus available on request.</a></p>
+
+<h2 id="blog">Blog</h2>
+
+<ul class="post-list">
+
+<li>
+<span class="date">April 08, 2026</span><br />
+<a class="title" href="/2026/04/08/why-ai-agents-are-distributed-systems.html">Why AI Agent Systems Are Distributed Systems</a>
+</li>
+
+</ul>
+
+<h2 id="experience">Experience</h2>
+
+<h3 class="experience-header" id="amazon-web-services--8-years">Amazon Web Services — 8 years</h3>
+
+<p>I build query languages, compliance frameworks, and autonomous engineering systems at AWS scale. Three threads run through my work: <strong>making complex systems accessible through language design</strong>, <strong>shifting enforcement left into infrastructure</strong>, and <strong>applying AI agents to accelerate the entire development lifecycle</strong>.</p>
+
+<p class="role"><strong>Observability Query Language &amp; Compiler Design</strong> — CloudWatch Logs (2022–present)</p>
+
+<p>I own feature development for ScrollQL, the query compiler powering CloudWatch Logs Insights — the primary log analysis surface for millions of AWS customers. I design and ship language primitives (aggregation functions, query commands, macro rewrite rules) and led Lookup Tables from design through GA across 32 AWS regions — a new query-time enrichment capability that lets customers join log data against external reference tables without leaving the Insights console.</p>
+
+<p class="role"><strong>Autonomous Software Engineering Systems</strong> (2025–present)</p>
+
+<p>I designed Forge — a self-correcting autonomous pipeline that takes a feature specification and produces a shipped, reviewed code change with zero manual intervention. The system orchestrates workspace provisioning, compiler implementation, test generation, code review submission, and iterative repair from static analysis feedback. First end-to-end run delivered a production ScrollQL feature in under 5 hours. This work directly informs my research on multi-agent system observability.</p>
+
+<p class="role"><strong>Infrastructure Compliance at Scale</strong> — AWS CloudFormation (2018–2022)</p>
+
+<p>I designed and built the Hooks control plane service, led a team of 6 engineers to deliver CloudFormation Hooks to GA — a pre-provisioning compliance framework that lets organizations enforce governance policies before any resource is created. I led the integration of Hooks as a new resource type into the existing CloudFormation Registry, and drove both systems across all AWS partitions (commercial, GovCloud, China, isolated regions). The resource provider framework I contributed to is used by hundreds of AWS service teams. This work shaped my thinking on how to build extensible, policy-driven systems that operate reliably across trust boundaries.</p>
+
+<h3 class="role" id="research">Research</h3>
+
+<p>My independent research bridges distributed systems and AI — treating multi-agent LLM systems as distributed systems that need the same observability, reliability contracts, and operational rigor we’ve built for microservices over two decades. Two papers in progress; details in <a href="#publications">Publications</a>.</p>
+
+<h3 id="education">Education</h3>
+
+<p><strong>MS</strong> — University of Utah, David Eccles School of Business (2016–2017) · <strong>BE</strong> — Computer Science</p>
+
+<h2 id="contact">Contact</h2>
+
+<ul>
+  <li>ORCID: <a href="https://orcid.org/0009-0003-3432-3852">0009-0003-3432-3852</a></li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/shrikanttambe/">linkedin.com/in/shrikanttambe</a></li>
+  <li>Email: <a href="mailto:shrikant_tambe@outlook.com">shrikant_tambe@outlook.com</a></li>
+</ul>
+:ET

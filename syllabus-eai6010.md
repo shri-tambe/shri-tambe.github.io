@@ -10,7 +10,7 @@ title: "EAI 6010: Applications of Artificial Intelligence — Syllabus"
 
 A practitioner-focused course on applying modern AI/ML techniques to real business problems. Students move from understanding foundation models to deploying AI solutions in healthcare, finance, operations, and knowledge work — with emphasis on the 2024–2026 paradigm shift from training models to orchestrating them.
 
-**Prerequisites:** EAI 6000 (Fundamentals of Artificial Intelligence) or ALY 6140 (Python and Analytics Systems Technology). Students should be comfortable writing Python scripts and have basic familiarity with AI/ML concepts.
+**Prerequisites:** An introductory AI/ML course or equivalent. Students should be comfortable writing Python scripts and have basic familiarity with AI/ML concepts.
 
 **Grading:** 50% Labs (12) \| 10% Project Proposal (Week 8) \| 30% Capstone Project \| 10% Participation
 
@@ -75,9 +75,9 @@ Individual or pairs. Identify a real business problem (from your workplace or a 
 
 ---
 
-## How This Course Differs from EAI 6000 and EAI 6020
+## How This Course Fits in a Graduate AI Curriculum
 
-| | EAI 6000 (Fundamentals) | **EAI 6010 (This Course)** | EAI 6020 (System Technologies) |
+| | Intro AI Course | **This Course** | AI Systems/Infrastructure |
 |---|---|---|---|
 | Focus | What AI is, how it works | How to apply AI to solve business problems | How to build and operate AI infrastructure |
 | Outcome | Understand algorithms | Deploy AI solutions with evaluation | Architect production AI systems |
@@ -87,7 +87,7 @@ Individual or pairs. Identify a real business problem (from your workplace or a 
 
 ## Instructor Background
 
-Shrikant Tambe is a Senior SDE at AWS with 8 years building production AI and distributed systems. He created the CloudWatch MCP Server (274K+ monthly downloads), designed LLM extraction pipelines processing 30K+ documents, built multi-agent AI platforms on AWS Bedrock, and authored research on AI system reliability (D-AER, Cognitive SLOs). His work spans the full AI application lifecycle from prototype through production at scale.
+Shrikant Tambe is a Senior SDE at AWS with 12 years building production AI and distributed systems. He created the CloudWatch MCP Server (274K+ monthly downloads), designed LLM extraction pipelines processing 30K+ documents, and built multi-agent AI platforms on AWS Bedrock. His work spans the full AI application lifecycle from prototype through production at scale.
 
 ## Recommended Readings & References
 

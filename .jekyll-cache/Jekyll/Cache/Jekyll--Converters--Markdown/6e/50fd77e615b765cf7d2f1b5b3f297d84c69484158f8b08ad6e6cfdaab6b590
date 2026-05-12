@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shrikant Tambe</title>
-  <meta name="description" content="Senior SDE at AWS | AI Agent Systems Researcher">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <button class="theme-toggle" onclick="let d=document.documentElement,t=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',t);localStorage.setItem('theme',t);this.textContent=t==='dark'?'☀️':'🌙'" aria-label="Toggle dark mode">🌙</button>
-  <script>let t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);document.querySelector('.theme-toggle').textContent=t==='dark'?'☀️':'🌙'</script>
-  <div class="hero">
+I"?*<div class="hero">
 <img src="/assets/img/headshot.jpg" alt="Shrikant Tambe" />
 <div class="hero-text">
 <h1>Shrikant Tambe</h1>
@@ -100,7 +88,7 @@ Validated across 3 systems, N=1,400 LLM interactions, 6 Cognitive SLOs defined.
 
 <p class="role"><strong>Observability Query Language &amp; Compiler Design</strong> — CloudWatch Logs (2025–present)</p>
 
-<p>I own feature development for ScrollQL, the query compiler powering CloudWatch Logs Insights — the primary log analysis surface for millions of AWS customers. ScrollQL compiles a SQL-like query language into execution plans over distributed log storage; I work across the full compiler stack from parser extensions through syntax tree rewrite rules to execution operators. I designed and shipped Lookup Tables end-to-end — a query-time enrichment primitive that performs hash-join lookups against customer-provided reference data, enabling log enrichment without data movement. I build aggregation functions that operate over streaming window semantics, and macro rewrite rules that expand high-level query patterns into optimized multi-stage execution plans.</p>
+<p>I own feature development for ScrollQL, the query compiler powering CloudWatch Logs Insights — the primary log analysis surface for millions of AWS customers. ScrollQL compiles a SQL-like query language into execution plans over distributed log storage; I work across the full compiler stack from parser extensions through AST rewrite rules to execution operators. I designed and shipped Lookup Tables end-to-end — a query-time enrichment primitive that performs hash-join lookups against customer-provided reference data, enabling log enrichment without data movement. I build aggregation functions that operate over streaming window semantics, and macro rewrite rules that expand high-level query patterns into optimized multi-stage execution plans.</p>
 
 <p class="role"><strong>Service Architecture &amp; Decomposition</strong> — CloudWatch Logs (2022–2023)</p>
 
@@ -125,7 +113,4 @@ Validated across 3 systems, N=1,400 LLM interactions, 6 Cognitive SLOs defined.
   <li>LinkedIn: <a href="https://www.linkedin.com/in/shrikanttambe/">linkedin.com/in/shrikanttambe</a></li>
   <li>Email: <a href="mailto:shrikant_tambe@outlook.com">shrikant_tambe@outlook.com</a></li>
 </ul>
-
-  <footer>&copy; 2026 Shrikant Tambe</footer>
-</body>
-</html>
+:ET
