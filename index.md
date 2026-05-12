@@ -36,14 +36,14 @@ ORCID: [0009-0003-3432-3852](https://orcid.org/0009-0003-3432-3852)
 ## Teaching
 {: #teaching}
 
-I am actively seeking part-time teaching opportunities in the Seattle area. My courses are designed for graduate students and working professionals.
-
-**Areas I can teach:**
+Available for guest lectures and adjunct teaching in:
 - **Applied AI Agent Systems** — multi-agent orchestration, observability, reliability, production deployment
 - **Applications of Artificial Intelligence** — applying modern AI to business problems across healthcare, finance, and operations
 - **Distributed Systems** — with modern AI/ML applications
 
-**Draft Course Syllabi** (proposed, not yet taught):
+My courses use real production case studies, hands-on labs, and evaluation frameworks drawn from industry practice.
+
+**Course Syllabi:**
 - [CS 6950: Applied AI Agent Systems](/syllabus-cs6950-ai-agent-systems) — multi-agent orchestration, observability, reliability (CS track)
 - [EAI 6010: Applications of Artificial Intelligence](/syllabus-eai6010-applications-of-ai) — applying modern AI to business problems (ML/AI track)
 
