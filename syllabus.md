@@ -57,7 +57,7 @@ Teams of 2-3. Design, build, and deploy an agent system that solves a real probl
 4. **Governed:** Includes cost tracking, at least one safety guardrail, and an audit trail
 5. **Evaluated:** Quantitative metrics showing how well the system works (not just "it demos well")
 
-Deliverables: Architecture doc (Week 7), working demo (Week 9), final presentation + report (Week 10).
+Deliverables: Architecture doc (Week 8), working demo (Week 13), final presentation + report (Week 15).
 
 ---
 
@@ -113,7 +113,7 @@ Each week includes suggested readings. None are mandatory textbooks — the fiel
 - Netflix, "Principles of Chaos Engineering" — https://principlesofchaos.org/ — Week 7
 - Pal & Bhattacharya, "The Stochastic Gap: Agent Reliability as Blind-Spot Mass" (2025) — Week 7
 - Tambe, "D-AER: Distributed Agent Execution Records" (2026, preprint) — Week 5
-- TianPan, "SLO Error Budgets for Agent Systems" (2026) — Week 8
+- TianPan, "SLO Error Budgets for Agent Systems" (2026) — Week 10
 
 **Failure Analysis & Security:**
 - Mazeika et al., "HarmBench: Standardized Evaluation of LLM Attacks and Defenses" (2024) — Week 9
