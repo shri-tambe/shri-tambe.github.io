@@ -50,20 +50,15 @@ My courses use real production case studies, hands-on labs, and evaluation frame
 ## Blog
 {: #blog}
 
-{% assign posts = site.posts | slice: 0, 5 %}
-{% if posts.size > 0 %}
-<ul class="post-list">
-{% for post in posts %}
-<li>
-<span class="date">{{ post.date | date: "%B %d, %Y" }}</span><br>
-<a class="title" href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
-{% if site.posts.size > 5 %}<p><a href="/blog">All posts →</a></p>{% endif %}
-{% else %}
-<p><em>Coming soon — writing on AI agent observability, distributed systems, and research notes.</em></p>
-{% endif %}
+I write about AI systems, observability, and distributed systems on Medium.
+
+**Published:**
+- [AWS CloudWatch MCP and Skills: Stop Querying, Start Reasoning](https://shri-tambe.medium.com/aws-cloudwatch-mcp-and-skills-stop-querying-start-reasoning-657184b951ea) — May 2025
+
+**Coming soon:**
+- Why AI Agents Are Distributed Systems
+
+[All posts on Medium →](https://shri-tambe.medium.com/)
 
 ## Experience
 {: #experience}
