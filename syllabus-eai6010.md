@@ -5,14 +5,14 @@ title: "EAI 6010: Applications of Artificial Intelligence — Syllabus"
 
 # EAI 6010: Applications of Artificial Intelligence
 
-**Graduate — 3 Quarter Hours**
+**Graduate — 4 Quarter Hours (College of Professional Studies)**
 **Instructor:** Shrikant Tambe \| [ORCID](https://orcid.org/0009-0003-3432-3852)
 
 A practitioner-focused course on applying modern AI/ML techniques to real business problems. Students move from understanding foundation models to deploying AI solutions in healthcare, finance, operations, and knowledge work — with emphasis on the 2024–2026 paradigm shift from training models to orchestrating them.
 
-**Prerequisites:** EAI 6000 (Fundamentals of AI) or equivalent. Python proficiency.
+**Prerequisites:** EAI 6000 (Fundamentals of Artificial Intelligence) or ALY 6140 (Python and Analytics Systems Technology). Students should be comfortable writing Python scripts and have basic familiarity with AI/ML concepts.
 
-**Grading:** 45% Labs (8, including vendor evaluation) \| 15% Project Proposal (Week 7) \| 30% Capstone Project \| 10% Participation
+**Grading:** 50% Labs (12) \| 10% Project Proposal (Week 8) \| 30% Capstone Project \| 10% Participation
 
 ---
 
@@ -22,7 +22,7 @@ The AI market moves faster than any curriculum can follow. This course teaches s
 
 ---
 
-## Schedule (10 Weeks)
+## Schedule (15 Weeks)
 
 | Week | Topic | Domain Application | Lab |
 |------|-------|-------------------|-----|
@@ -30,12 +30,17 @@ The AI market moves faster than any curriculum can follow. This course teaches s
 | 2 | **Retrieval-Augmented Generation:** When your AI needs facts. Chunking strategies, embedding models, retrieval evaluation. Hallucination measurement. | Knowledge Management | Build a RAG system over company docs; measure hallucination rate at different chunk sizes and retrieval configs. |
 | 3 | **Classification & Extraction at Scale:** From regex to NER to LLMs. Structured data extraction from unstructured text. Confidence scoring and human-in-the-loop for low-confidence predictions. | Healthcare / Pharma | Extract structured data from clinical notes; compare regex vs. NER vs. LLM extraction on accuracy, cost, and latency. |
 | 4 | **Recommendation & Personalization:** Embeddings, similarity search, reranking. Cold-start problem. Combining collaborative filtering with semantic understanding. | E-Commerce / HR | Build a job-candidate matching system using embeddings + reranking. Evaluate with precision@k and diversity metrics. |
-| 5 | **Data Analysis with AI:** LLM-powered data exploration (natural language → SQL/pandas). Tabular ML + LLM hybrid approaches. Automated insight generation from datasets. | Finance / Analytics | Build a natural-language data analyst: user asks questions in English, system generates pandas code, executes it, and explains findings. Test on a loan dataset. |
-| 6 | **Multimodal AI: Vision + Language** Using vision APIs (GPT-4V, Claude Vision) for business tasks. Document understanding, image classification, visual QA. Confidence thresholds and fallback to human review. | Manufacturing / Retail | Build a product defect classifier using vision APIs. Implement confidence-based routing: auto-approve high confidence, flag low confidence for human review. |
-| 7 | **Project Proposal & Vendor Evaluation Lab:** Submit capstone project proposal (problem, approach, evaluation plan). In-class lab: evaluate a real AI vendor proposal — identify risks, gaps, hidden costs, missing evaluation criteria. | Deliverable: 2-page project proposal + vendor evaluation worksheet (graded as lab). |
-| 8 | **AI Agents as Business Automation:** When to use agents vs. pipelines vs. simple API calls. Designing agent workflows for operations. Error handling and escalation. | Operations | Build an agent that triages support tickets, routes to teams, and escalates when uncertain. Measure accuracy vs. a rule-based baseline. |
-| 9 | **Evaluation, Bias, and Responsible Deployment:** Red-teaming AI systems. Fairness metrics. A/B testing AI features. Monitoring for drift and degradation post-deployment. | Cross-domain | Red-team a deployed model; measure fairness metrics across demographic groups; design a monitoring dashboard for production. |
-| 10 | **Capstone Presentations** — Deploy an AI solution to a real business problem | | |
+| 5 | **Data Analysis with AI:** LLM-powered data exploration (natural language → SQL/pandas). Tabular ML + LLM hybrid approaches. Automated insight generation from datasets. | Finance / Analytics | Build a natural-language data analyst: user asks questions in English, system generates pandas code, executes it, and explains findings. |
+| 6 | **Multimodal AI: Vision + Language.** Using vision APIs (GPT-4V, Claude Vision) for business tasks. Document understanding, image classification, visual QA. Confidence thresholds and fallback to human review. | Manufacturing / Retail | Build a product defect classifier using vision APIs. Implement confidence-based routing: auto-approve high confidence, flag low confidence for human review. |
+| 7 | **AI Agents as Business Automation:** When to use agents vs. pipelines vs. simple API calls. Designing agent workflows for operations. Error handling and escalation. | Operations | Build an agent that triages support tickets, routes to teams, and escalates when uncertain. Measure accuracy vs. a rule-based baseline. |
+| 8 | **Project Proposal & Vendor Evaluation Lab:** Submit capstone project proposal (problem, approach, evaluation plan). In-class: evaluate a real AI vendor proposal — identify risks, gaps, hidden costs. | | Deliverable: 2-page project proposal + vendor evaluation worksheet. |
+| 9 | **Fine-Tuning & Transfer Learning:** When prompting isn't enough. LoRA, QLoRA, instruction tuning. The decision tree: prompt vs. RAG vs. fine-tune. Cost and data requirements. | Cross-domain | Fine-tune a small open-source model on a domain task. Compare performance and cost against prompting and RAG on the same task. |
+| 10 | **Deployment & MLOps:** Model serving patterns. A/B testing AI features. Canary deployments. Monitoring in production (drift detection, quality degradation). CI/CD for ML. | Operations | Deploy the Week 9 fine-tuned model behind an API. Set up monitoring: track latency, error rate, and output quality over time. |
+| 11 | **AI for Document Processing:** OCR + LLM pipelines. Invoice extraction, contract analysis, summarization at scale. Handling messy real-world documents. | Legal / Finance | Build a document processing pipeline: ingest PDFs, extract key fields, summarize, and flag anomalies. Test on sample contracts. |
+| 12 | **Cost & ROI of AI Projects:** Token economics. Build vs. buy analysis. TCO modeling. When NOT to use AI. Communicating AI value to leadership. | Business Strategy | Conduct a full cost-benefit analysis of an AI project: compute costs, estimate accuracy gains, model ROI over 12 months. Present a 1-page executive summary. |
+| 13 | **Evaluation, Bias, and Responsible Deployment:** Red-teaming AI systems. Fairness metrics. A/B testing. Monitoring for drift and degradation post-deployment. | Cross-domain | Red-team a deployed model; measure fairness metrics across demographic groups; design a monitoring dashboard. |
+| 14 | **Capstone Work Session:** In-class working session. Instructor office hours for project troubleshooting. Peer feedback on demos. | | Deliverable: Working demo ready for presentation. |
+| 15 | **Capstone Presentations.** Present deployed AI solution. Peer review, feedback, and Q&A. | | |
 
 ---
 
