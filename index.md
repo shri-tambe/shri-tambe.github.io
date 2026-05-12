@@ -44,8 +44,8 @@ Available for guest lectures and adjunct teaching in:
 My courses use real production case studies, hands-on labs, and evaluation frameworks drawn from industry practice.
 
 **Course Syllabi:**
-- [CS 6950: Applied AI Agent Systems](/syllabus) — multi-agent orchestration, observability, reliability (CS track)
-- [EAI 6010: Applications of Artificial Intelligence](/syllabus-eai6010) — applying modern AI to business problems (ML/AI track)
+- [CS 6950: Applied AI Agent Systems](/syllabus-cs6950-ai-agent-systems) — multi-agent orchestration, observability, reliability (CS track)
+- [EAI 6010: Applications of Artificial Intelligence](/syllabus-eai6010-applications-of-ai) — applying modern AI to business problems (ML/AI track)
 
 ## Blog
 {: #blog}
