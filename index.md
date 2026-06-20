@@ -8,16 +8,23 @@ title: Shrikant Tambe
 <div class="hero-text">
 <h1>Shrikant Tambe</h1>
 <p class="subtitle">Senior Software Development Engineer, Amazon Web Services<br>AI Agent Systems Researcher</p>
+<div class="hero-links">
+<a href="https://www.linkedin.com/in/shrikanttambe/">LinkedIn</a>
+<a href="https://github.com/shri-tambe">GitHub</a>
+<a href="https://shri-tambe.medium.com/">Medium</a>
+<a href="https://orcid.org/0009-0003-3432-3852">ORCID</a>
+<a href="mailto:shrikant_tambe@outlook.com">Email</a>
+</div>
 </div>
 </div>
 
-<nav>
-<a href="#research">Research</a>
-<a href="#teaching">Teaching</a>
-<a href="#blog">Blog</a>
-<a href="#experience">Experience</a>
-<a href="#contact">Contact</a>
-</nav>
+I build query languages, AI agent platforms, and developer tooling at AWS scale — and study what it takes to run multi-agent AI systems with the operational rigor of production distributed systems.
+
+<ul class="stats">
+<li><span class="num">12 yrs</span><span class="lbl">Industry experience</span></li>
+<li><span class="num">274K+</span><span class="lbl">Monthly downloads, CloudWatch MCP Server</span></li>
+<li><span class="num">8M+ TPS</span><span class="lbl">Systems operated at AWS scale</span></li>
+</ul>
 
 ## Research
 {: #research}
@@ -25,9 +32,12 @@ title: Shrikant Tambe
 My research applies distributed systems observability principles to multi-agent AI systems — the thesis that **AI agent systems are distributed systems** and need the same rigor in tracing, reliability metrics, and operational tooling that we've spent 20 years building for microservices.
 
 **Focus areas:**
-- Multi-agent reasoning observability
-- Reliability metrics for non-deterministic AI systems
-- Production engineering for autonomous agent workflows
+
+<ul class="tags">
+<li>Multi-agent reasoning observability</li>
+<li>Reliability metrics for non-deterministic AI</li>
+<li>Production engineering for autonomous agents</li>
+</ul>
 
 Paper in progress — details available upon request.
 
